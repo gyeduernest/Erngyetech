@@ -31,9 +31,6 @@ export default function Hero() {
         <Button className='bg-pink-600 lg:py-6 lg:px-10'><img src={Docs} alt="" /> Download Resume</Button>
         </div>
       </div>
-
-
-
     </m.div>
   )
 }

@@ -3,8 +3,24 @@
   background-clip: text;
   color: transparent;
 }
+.experience {
+  background: linear-gradient(89deg, #B16CEA -14.15%, #F75F74 51.53%, #FE9751 114.97%);
+      background-clip: text;
+  color: transparent;
+}
+.education {
+  background: linear-gradient(89deg,  #FE9751 -14.15%, #F75F74 51.53%, #B16CEA 114.97%);
+      background-clip: text;
+  color: transparent;
+}
 .skills{
   background-image: linear-gradient(to left, #6366F1, #8B5CF6, #EC4899);
   background-clip: text;
   color: transparent;
+}
+.satisfied{
+  background: #FF512F; 
+background: -webkit-linear-gradient(to left, #F09819, #FF512F);
+background: linear-gradient(to left, #F09819, #FF512F); 
+
 }
