@@ -23,7 +23,7 @@ import MenuButton from '../assets/MenuButton.svg'
 
 export default function Nav() {
   return (
-    <div className="bg-[#161513] text-white fixed w-full md:px-10 lg:px-32  px-5">
+    <div className="bg-[#161513] text-white fixed w-full md:px-10 lg:px-32  px-5 z-50">
           <header>
             <nav className=" flex items-center justify-between">
             <div className='lg:hidden md:block sm:block block'>
@@ -36,9 +36,6 @@ export default function Nav() {
                       <SheetContent>
                         <SheetHeader>
                           <SheetTitle>Are you absolutely sure?</SheetTitle>
-                          
-
-
                         </SheetHeader>
                       </SheetContent>
                     </Sheet>
@@ -158,7 +155,7 @@ export default function Nav() {
                   <NavigationMenu>
                           <NavigationMenuList>
                             <NavigationMenuItem>
-                              <NavigationMenuTrigger className="bg-[#161513]">Experience</NavigationMenuTrigger>
+                              <NavigationMenuTrigger className="bg-[#161513]">Git Repositories</NavigationMenuTrigger>
                                 <NavigationMenuContent className="rounded-md gap-4 shadow-xl border border-slate-300 px-10 py-5 tracking-tight flex">
                                   <div className="  rounded-md w-40">
                                     <div>
