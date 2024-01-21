@@ -21,8 +21,8 @@ import { Button } from "@/components/ui/button"
 
 export default function Projectspreview() {
   return (
-    <div className="  py-10 h-96 bg-slate-50 lg:px-12">
-      <h3 className="text-4xl font-bold  mb-10 text-center ">
+    <div className="  py-10 h-96 bg-slate-50 lg:px-12 lg:mb-96 mb-[1000px]">
+      <h3 className="text-4xl font-bold  mb-10 text-center  Preview">
         My Projects Preview
       </h3>
       
@@ -151,13 +151,13 @@ export default function Projectspreview() {
                 <CarouselItem className=""><img src={Tutorials1} alt="" className="rounded-md lg:rounded-3xl" />
                  <div className="py-5  ">
                     <h3 className="text-xl font-semibold justify-between flex">Tutorials video <Button className="" variant={"link"} size={"sm"}>View</Button> </h3>
-                    <div className="gap-3">
+                    <div className="gap-2 flex">
                     <Badge className="bg-indigo-700 text-slate-50 mb-2">Premiere Pro</Badge>
                     <Badge className="bg-red-600 text-slate-50 mb-2">Youtube</Badge>
                     <Badge className="bg-slate-900 text-slate-50 mb-2">Canon 6D</Badge>
                     </div>
                     <p className="text-slate-700">
-                      A UI/UX portfolio project in the fintech sector Click here to view
+                      I also doing tutorials for youtube and interested audiences 
                     </p>
                   </div>
                   </CarouselItem>
@@ -193,8 +193,6 @@ export default function Projectspreview() {
         </Carousel>
         </div>
       </div>
-
-
     </div>
   )
 }

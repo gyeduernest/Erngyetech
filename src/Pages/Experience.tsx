@@ -9,7 +9,7 @@ import Docs from '../assets/Docs.svg'
 
 export default function Experience() {
   return (
-    <div className="bg-[#161513] py-10">
+    <div className="bg-[#161513] py-10 ">
 
       <div className="lg:flex px-5  text-white  justify-between lg:px-72">
         <div className=" mb-10">

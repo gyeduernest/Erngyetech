@@ -1,4 +1,5 @@
 import Calltoaction1 from "./Pages/Calltoaction1"
+import Quote from "./Pages/Ernest"
 import Experience from "./Pages/Experience"
 import Hero from "./Pages/Hero"
 import Nav from "./Pages/Nav"
@@ -15,9 +16,9 @@ function App() {
       <Hero/>
       <Skills/>
       <Calltoaction1/>
-      <Experience/>
       <Projectspreview/>
-      
+      <Experience/>
+       <Quote/>     
     </>
   )
 }
