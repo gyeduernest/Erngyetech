@@ -13,7 +13,6 @@ import Whatsapplight from '../assets/Socials/whatsapplight.svg'
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
@@ -44,7 +43,7 @@ export default function Nav() {
                       </SheetContent>
                     </Sheet>
                     </div>
-          <div className="flex justify-center  hidden md:hidden lg:block" >
+          <div className=" justify-center  hidden md:hidden lg:block" >
                     <img src={Primarylogo} alt="" className='w-20 h-20' />
                 </div>
                 <div className="hidden sm:hidden md:hidden lg:block">

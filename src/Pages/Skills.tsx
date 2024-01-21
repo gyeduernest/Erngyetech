@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge"
 import  Laptop  from '../assets/Laptop.png'
 import Call from '../assets/Call.svg'
 import Projects from '../assets/Projects.svg'
+import Figma from '../assets/Figma.png'
 
 export default function Skills() {
   return (
@@ -44,21 +45,20 @@ export default function Skills() {
             <img src={Laptop} alt=""  className='w-96'/>
         </div>
       </div>
-      <div className='lg:flex justify-center gap-20 items-center lg:p-'>
+
+
+      <div className='lg:flex-row justify-center gap-20 items-center md:flex flex-col-reverse flex'>
       <div>
-            <img src={Laptop} alt=""  className='w-96'/>
+            <img src={Figma} alt=""  className='w-96'/>
         </div>
         <div>
           <div className=''>
             <div className='text-2xl font-extrabold mb-5'>
-              Web development
+                  UI/UX Design
             </div>
             <div className='flex gap-2 mb-5'>
-            <Badge className='bg-yellow-400' variant="outline">HTML</Badge>
-            <Badge className='bg-purple-400' variant="outline">CSS</Badge>
-            <Badge variant="outline"className='bg-blue-400'>React</Badge>
-            <Badge variant="outline" className='bg-indigo-400'>Wordpress</Badge>
-
+            <Badge className='bg-yellow-400' variant="outline">Figma</Badge>
+            
             </div>
           </div>
           <p className='lg:w-96 mb-5'>
