@@ -9,7 +9,7 @@ import Baitab from '/src/assets/UI/Baitab.png'
 import Gymbud from '/src/assets/UI/Gymbud.png'
 import Datacompany from '/src/assets/UI/Datacompany.png'
 import Miniproject from '/src/assets/UI/Miniproject.png'
-import Shopify from '/src/assets/webdev/Shopify.png'
+import Shop from '/src/assets/Webdev/Shop.png'
 import Portfolio from '/src/assets/webdev/Portfoliosite.png'
 import Webdev3 from '/src/assets/webdev/Webdev3.png'
 import Digitalguy from '/src/assets/webdev/Digitalguy.png'
@@ -89,7 +89,7 @@ export default function Projectspreview() {
           </div>
         <Carousel className="lg:w-96 w-64 py-5">
             <CarouselContent className="">
-                <CarouselItem className=""><img src={Shopify} alt="" className="rounded-md lg:rounded-3xl" />
+                <CarouselItem className=""><img src={Shop} alt="" className="rounded-md lg:rounded-3xl" />
                  <div className="py-5  ">
                     <h3 className="text-xl font-semibold justify-between flex">Shopify Dashboard<Button className="" variant={"link"} size={"sm"}>View</Button> </h3>
                     <div className="flex gap-2">
@@ -98,7 +98,7 @@ export default function Projectspreview() {
                     <Badge className="bg-red-700 text-white  mb-2">Javascript</Badge>
                     </div>
                     <p className="text-slate-700">
-                      A UI/UX portfolio project in the fintech sector Click here to view
+                      I joined a hackathon to develop the shopify dashboard page to increase accessibility
                     </p>
                   </div>
                   </CarouselItem>
