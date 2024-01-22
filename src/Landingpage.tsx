@@ -5,7 +5,7 @@ import Experience from "./Pages/Experience"
 import Footer from "./Pages/Footer"
 import Hero from "./Pages/Hero"
 import Nav from "./Pages/Nav"
-import Projectspreview from "./Pages/Projects/Projectspreview"
+import Projectspreview from "./Pages/Projectspreview"
 import Skills from "./Pages/Skills"
 
 
