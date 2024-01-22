@@ -11,7 +11,7 @@ import Datacompany from '/src/assets/UI/Datacompany.png'
 import Miniproject from '/src/assets/UI/Miniproject.png'
 import Shop from '/src/assets/Webdev/Shop.png'
 import Portfolio from '/src/assets/webdev/Portfoliosite.png'
-import Webdev3 from '/src/assets/webdev/Webdev3.png'
+import Ghaprofund from '/src/assets/webdev/Ghaprofund.png'
 import Digitalguy from '/src/assets/webdev/Digitalguy.png'
 import Map1 from '/src/assets/Maps/Map1.jpg'
 import Tutorials1 from '/src/assets/Contentcreation/Tutorials1.jpg'
@@ -103,7 +103,7 @@ export default function Projectspreview() {
                   </div>
                   </CarouselItem>
                 <CarouselItem>
-                  <img src={Webdev3} alt="" className="rounded-md lg:rounded-3xl" />
+                  <img src={Ghaprofund} alt="" className="rounded-md lg:rounded-3xl" />
                   <div className="py-5  ">
                     <h3 className="text-2xl font-semibold justify-between flex">GhaProfund <Button className="" variant={"link"} size={"sm"}>View</Button> </h3>
                     <div>
