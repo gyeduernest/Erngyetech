@@ -26,7 +26,7 @@ export default function Projectspreview() {
         My Projects Preview
       </h3>
       
-      <div className=" px-16 z-0 lg:grid lg:grid-cols-3  justify-center lg:px-10">
+      <div className="px-16 z-0 lg:grid lg:grid-cols-3  justify-center lg:px-10">
         <div>
           <div className="text-2xl font-bold mb-5">
             UI/UX

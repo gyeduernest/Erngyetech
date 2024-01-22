@@ -10,14 +10,8 @@ import {
   NavigationMenuTrigger
 } from "@/components/ui/navigation-menu"
 import Whatsapplight from '../assets/Socials/whatsapplight.svg'
-import {
-  Sheet,
-  SheetContent,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from "@/components/ui/sheet"
-import MenuButton from '../assets/MenuButton.svg'
+import { Mobilenav } from './Mobilenav'
+
 
 
 
@@ -26,20 +20,9 @@ export default function Nav() {
     <div className="bg-[#161513] text-white fixed w-full md:px-10 lg:px-32  px-5 z-50">
           <header>
             <nav className=" flex items-center justify-between">
-            <div className='lg:hidden md:block sm:block block'>
-                    <Sheet>
-                      <SheetTrigger className='text-white'>
-                        <Button className='bg-white'>
-                          <img src={MenuButton} alt="" />
-                        </Button>
-                      </SheetTrigger>
-                      <SheetContent>
-                        <SheetHeader>
-                          <SheetTitle>Are you absolutely sure?</SheetTitle>
-                        </SheetHeader>
-                      </SheetContent>
-                    </Sheet>
-                    </div>
+            <div className='lg:hidden md:block sm:block block backdrop-blur-lg '>
+            <Mobilenav/>   
+            </div>
           <div className=" justify-center  hidden md:hidden lg:block" >
                     <img src={Primarylogo} alt="" className='w-20 h-20' />
                 </div>
