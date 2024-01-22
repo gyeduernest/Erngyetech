@@ -10,7 +10,7 @@ import Gymbud from '/src/assets/UI/Gymbud.png'
 import Datacompany from '/src/assets/UI/Datacompany.png'
 import Miniproject from '/src/assets/UI/Miniproject.png'
 import Shop from '/src/assets/Webdev/Shop.png'
-import Portfoliosite from '/src/assets/webdev/Portfoliosite.png'
+import Newwebsite from '/src/assets/webdev/Newwebsite.png'
 import Ghaprofund from '/src/assets/webdev/Ghaprofund.png'
 import Digitalguy from '/src/assets/webdev/Digitalguy.png'
 import Map1 from '/src/assets/Maps/Map1.jpg'
@@ -125,7 +125,7 @@ export default function Projectspreview() {
                       An expense Tracker application made with React                    </p>
                   </div>
                 </CarouselItem>
-                <CarouselItem><img src={Portfoliosite} alt="" className="lg:rounded-3xl rounded-md" />
+                <CarouselItem><img src={Newwebsite} alt="" className="lg:rounded-3xl rounded-md" />
                 <div className="py-5  ">
                     <h3 className="text-xl font-semibold justify-between flex">Portfolio Site <Button className="" variant={"link"} size={"sm"}>View</Button> </h3>
                     <div>
