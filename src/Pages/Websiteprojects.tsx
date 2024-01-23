@@ -26,6 +26,11 @@ import Gmail from '../assets/Socials/Gmail.svg'
 
 export default function Websiteprojects() {
   return (
+<>
+
+    <h3 className="lg:text-7xl text-3xl font-bold flex justify-center py-10">
+        All Web dev Projects
+      </h3>
     <div className="flex justify-center py-10">
       <Carousel orientation="horizontal" className=" w-64 lg:w-[900px] md:w-96 ">
           <CarouselContent>
@@ -554,5 +559,6 @@ Fintrack is an expense tracker app i created for my portfolio it calculates expe
 
 
     </div>
+</>
   )
 }

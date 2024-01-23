@@ -142,7 +142,7 @@ export default function Fewprojects() {
                     <div className="gap-2 flex">
                     <Badge className="bg-indigo-700 text-slate-50 mb-2">Premiere Pro</Badge>
                     <Badge className="bg-red-600 text-slate-50 mb-2">Youtube</Badge>
-                    <Badge className="bg-slate-900 text-slate-50 mb-2">Canon 6D</Badge>
+                    
                     </div>
                     <p className="text-slate-700">
                       I also doing tutorials for youtube and interested audiences 
@@ -156,7 +156,7 @@ export default function Fewprojects() {
                     <div className="gap-3">
                     <Badge className="bg-indigo-700 text-slate-50 mb-2">Premiere Pro</Badge>
                     <Badge className="bg-red-600 text-slate-50 mb-2">Youtube</Badge>
-                    <Badge className="bg-slate-900 text-slate-50 mb-2">Canon 6D</Badge>
+                    
                     </div>
                     <p className="text-slate-700">
                       I also work with people for collab works on street content
