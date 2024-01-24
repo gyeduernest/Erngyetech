@@ -17,12 +17,7 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Progress } from "@/components/ui/progress"
 import Github from '../assets/Socials/Github.svg'
-import Whatsapp from '../assets/Socials/whatsapplight.svg'
-import Facebook from '../assets/Socials/Facebook.svg'
-import Instagram from '../assets/Socials/Instagram.svg'
-import Linkedin from '../assets/Socials/Linkedin.svg'
-import Telegram from '../assets/Socials/Telegram.svg'
-import Gmail from '../assets/Socials/Gmail.svg'
+import Socials from "./Socials"
 
 export default function Websiteprojects() {
   return (
@@ -74,29 +69,10 @@ This is my Personal Portfolio website of which i get to display what i have done
                     </Button>
                     </a>
                   </div>
-                  <div className="flex lg:gap-5 gap-2 px-5">
-                  <div className="w-5 h-5 rounded-full bg-slate-900 ">
-          <img src={Github} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Instagram} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Facebook} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Whatsapp} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Linkedin} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Telegram} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Gmail} className='w-5' alt="" />
-          </div>
+                  <div>
+                  <Socials/>
                   </div>
+
               </div>
             </CarouselItem>
             <CarouselItem>
@@ -137,28 +113,8 @@ Ghaprofund is a Project i intend on implementing in the future for this project 
                     </Button>
                     </a>
                   </div>
-                  <div className="flex lg:gap-5 gap-2 px-5">
-                  <div className="w-5 h-5 rounded-full bg-slate-900 ">
-          <img src={Github} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Instagram} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Facebook} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Whatsapp} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Linkedin} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Telegram} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Gmail} className='w-5' alt="" />
-          </div>
+                  <div>
+                  <Socials/>
                   </div>
               </div>
             </CarouselItem>
@@ -202,28 +158,8 @@ The intended purpose for his landing page has been fulfilled. this is landing pa
                     </Button>
                     </a>
                   </div>
-                  <div className="flex lg:gap-5 gap-2 px-5">
-                  <div className="w-5 h-5 rounded-full bg-slate-900 ">
-          <img src={Github} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Instagram} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Facebook} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Whatsapp} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Linkedin} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Telegram} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Gmail} className='w-5' alt="" />
-          </div>
+                  <div>
+                  <Socials/>
                   </div>
               </div>
             </CarouselItem>
@@ -269,28 +205,8 @@ Tthis is just a simple landing page for an application website this was done in 
                     </Button>
                     </a>
                   </div>
-                  <div className="flex lg:gap-5 gap-2 px-5">
-                  <div className="w-5 h-5 rounded-full bg-slate-900 ">
-          <img src={Github} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Instagram} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Facebook} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Whatsapp} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Linkedin} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Telegram} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Gmail} className='w-5' alt="" />
-          </div>
+                  <div>
+                  <Socials/>
                   </div>
               </div>
             </CarouselItem>
@@ -337,28 +253,8 @@ Tthis is just a simple landing page for an application website this was done in 
                     </Button>
                     </a>
                   </div>
-                  <div className="flex lg:gap-5 gap-2 px-5">
-                  <div className="w-5 h-5 rounded-full bg-slate-900 ">
-          <img src={Github} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Instagram} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Facebook} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Whatsapp} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Linkedin} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Telegram} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Gmail} className='w-5' alt="" />
-          </div>
+                  <div>
+                  <Socials/>
                   </div>
               </div>
             </CarouselItem>
@@ -398,28 +294,8 @@ Tthis is just a simple landing page for an application website this was done in 
                       View
                     </Button>
                   </div>
-                  <div className="flex lg:gap-5 gap-2 px-5">
-                  <div className="w-5 h-5 rounded-full bg-slate-900 ">
-          <img src={Github} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Instagram} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Facebook} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Whatsapp} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Linkedin} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Telegram} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Gmail} className='w-5' alt="" />
-          </div>
+                  <div>
+                  <Socials/>
                   </div>
               </div>
             </CarouselItem>
@@ -463,28 +339,8 @@ Fintrack is an expense tracker app i created for my portfolio it calculates expe
                     </Button>
                     </a>
                   </div>
-                  <div className="flex lg:gap-5 gap-2 px-5">
-                  <div className="w-5 h-5 rounded-full bg-slate-900 ">
-          <img src={Github} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Instagram} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Facebook} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Whatsapp} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Linkedin} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Telegram} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Gmail} className='w-5' alt="" />
-          </div>
+                  <div>
+                  <Socials/>
                   </div>
               </div>
             </CarouselItem>
@@ -527,28 +383,8 @@ Fintrack is an expense tracker app i created for my portfolio it calculates expe
                     </Button>
                     </a>
                   </div>
-                  <div className="flex lg:gap-5 gap-2 px-5">
-                  <div className="w-5 h-5 rounded-full bg-slate-900 ">
-          <img src={Github} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Instagram} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Facebook} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Whatsapp} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Linkedin} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Telegram} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Gmail} className='w-5' alt="" />
-          </div>
+                  <div>
+                  <Socials/>
                   </div>
               </div>
             </CarouselItem>

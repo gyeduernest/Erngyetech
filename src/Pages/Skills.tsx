@@ -8,16 +8,21 @@ import Figma from '../assets/Figma.png'
 import Content from '../assets/Content.png'
 import Dataanalysis from '../assets/Dataanalysis.png'
 import Manymore from '../assets/Manymore.png'
+import { Link } from 'react-router-dom'
+
 
 export default function Skills() {
   return (
+      <section id='skills'>
+
+
     <div className="bg-slate-50 lg:py-10  font-inter px-5 py-10 ">
       <div className='skills lg:text-6xl  text-3xl lg:px-40  font-extrabold mb-10'>
         My Skills and Services
       </div>
-
       <div className='lg:flex lg:mb-20 justify-center gap-20 items-center'>
         <div>
+          
           <div className=''>
             <div className='text-2xl font-extrabold mb-5'>
               Web development
@@ -34,12 +39,19 @@ export default function Skills() {
             I am well knowledgeable when it comes to web development. I can build a static website for your business enriched with SEO to boost your business digital exposure. When it comes to blog websites also trust me and my team to deliver 
           </p>
           <div className=' lg:p- gap-2 flex'>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSefXhqap-Nis8XMkowANlZYx80n_UUi8HVwHwTp2n9GVwQK7w/viewform?usp=sf_link" target='_blank'>
           <Button className='gap-2 flex items-center w-full'>
            <img src={Call} alt="" /> Hire Me Now 
           </Button>
+            </a>
+            <a href="">
+              <Link to="/signup">
+
           <Button className='gap-2 flex items-center w-full'>
             <img src={Projects} alt="" />View Projects
           </Button>
+              </Link>
+            </a>
           </div>
         
 
@@ -48,8 +60,6 @@ export default function Skills() {
             <img src={Laptop} alt=""  className='w-96'/>
         </div>
       </div>
-
-
       <div className='lg:flex-row justify-center gap-20 items-center md:flex flex-col-reverse flex'>
       <div>
             <img src={Figma} alt=""  className='w-96'/>
@@ -68,12 +78,19 @@ export default function Skills() {
             I am well knowledgeable when it comes to web development. I can build a static website for your business enriched with SEO to boost your business digital exposure. When it comes to blog websites also trust me and my team to deliver 
           </p>
           <div className=' lg:p- gap-2 flex'>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSefXhqap-Nis8XMkowANlZYx80n_UUi8HVwHwTp2n9GVwQK7w/viewform?usp=sf_link" target='_blank'>
           <Button className='gap-2 flex items-center w-full'>
            <img src={Call} alt="" /> Hire Me Now 
           </Button>
+            </a>
+            <a href="">
+              <Link to="/signup">
+
           <Button className='gap-2 flex items-center w-full'>
             <img src={Projects} alt="" />View Projects
           </Button>
+              </Link>
+            </a>
           </div>
         </div>
       </div>
@@ -129,12 +146,19 @@ export default function Skills() {
             I am well knowledgeable when it comes to web development. I can build a static website for your business enriched with SEO to boost your business digital exposure. When it comes to blog websites also trust me and my team to deliver 
           </p>
           <div className=' lg:p- gap-2 flex'>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSefXhqap-Nis8XMkowANlZYx80n_UUi8HVwHwTp2n9GVwQK7w/viewform?usp=sf_link" target='_blank'>
           <Button className='gap-2 flex items-center w-full'>
            <img src={Call} alt="" /> Hire Me Now 
           </Button>
+            </a>
+            <a href="">
+              <Link to="/signup">
+
           <Button className='gap-2 flex items-center w-full'>
             <img src={Projects} alt="" />View Projects
           </Button>
+              </Link>
+            </a>
           </div>
         </div>
       </div>
@@ -154,12 +178,19 @@ export default function Skills() {
             I am well knowledgeable when it comes to web development. I can build a static website for your business enriched with SEO to boost your business digital exposure. When it comes to blog websites also trust me and my team to deliver 
           </p>
           <div className=' lg:p- gap-2 flex'>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSefXhqap-Nis8XMkowANlZYx80n_UUi8HVwHwTp2n9GVwQK7w/viewform?usp=sf_link" target='_blank'>
           <Button className='gap-2 flex items-center w-full'>
            <img src={Call} alt="" /> Hire Me Now 
           </Button>
+            </a>
+            <a href="">
+              <Link to="/signup">
+
           <Button className='gap-2 flex items-center w-full'>
             <img src={Projects} alt="" />View Projects
           </Button>
+              </Link>
+            </a>
           </div>
         
 
@@ -172,5 +203,6 @@ export default function Skills() {
       
       
     </div>
+      </section>
   )
 }

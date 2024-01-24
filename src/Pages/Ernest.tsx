@@ -6,7 +6,7 @@ import Github from '../assets/Socials/Github.svg'
 import Instagram from '../assets/Socials/Instagram.svg'
 import Linkedin from '../assets/Socials/Linkedin.svg'
 import Telegram from '../assets/Socials/Telegram.svg'
-import Gmail from '../assets/Socials/Gmail.svg'
+import Socials from './Socials'
 
 export default function Quote() {
   return (
@@ -17,42 +17,54 @@ export default function Quote() {
                 You can always locate me from any of these social Media Handles and i will readily be available to respond
               </div>
               <hr className='mt-5 mb-5 border-slate-500'/>
-              <div className='flex gap-2  lg:hidden'>
-              <img src={Whatsapp} className='w-5' alt="" />
-              <img src={Github} className='w-5' alt="" />
-              <img src={Facebook} className='w-5' alt="" />
-              <img src={Telegram} className='w-5' alt="" />
-              <img src={Instagram} className='w-5' alt="" />
-              <img src={Linkedin} className='w-5' alt="" />
-              <img src={Gmail} className='w-5' alt="" />
+              <div className='flex  lg:hidden'>
+              <Socials/>
 
               </div>
               <div className='hidden md:hidden sm:hidden lg:block '>
+                <a href="https://wa.me/message/2RR7E4MJMWUUO1" target='_blank'>
                 <Button className=" bg-green-800 text-slate-50  flex gap-2 px-16 items-center mb-3">
                   <img src={Whatsapp} className='w-5' alt="" />
                   Whatsapp
                 </Button>
+                </a>
+                
+                <a href="https://github.com/gyeduernest" target='_blank'>
                 <Button className="  text-slate-50  flex gap-2 px-16 items-center mb-3">
                   <img src={Github} className='w-5' alt="" />
                   Githubrepo
                 </Button>
+                </a>
+               
+                <a href="https://web.facebook.com/ernestnana.yawgyedu.5"  target='_blank'>
+
                 <Button className=" bg-blue-700 text-slate-50  flex gap-2 px-16 items-center mb-3">
                   <img src={Facebook} className='w-5' alt="" />
                   Facebook
                 </Button>
+                </a>
+                <a href="https://t.me/gyeduernest"  target='_blank'>
+
+
                 <Button className=" bg-pink-600 text-slate-50  flex gap-2 px-16 items-center mb-3">
                   <img src={Telegram} className='w-5' alt="" />
                   Telegram
                 </Button>
-                
+                </a>
+                <a href="https://www.instagram.com/hypercitigram/" target='_blank'>
+
                 <Button className=" bg-orange-400 text-slate-50  flex gap-2 px-16 items-center mb-3">
                   <img src={Instagram} className='w-5' alt="" />
                   Instagram
                 </Button>
+                </a>
+                <a href="https://www.linkedin.com/in/ernest-gyedu-b71948164/" target='_blank'>
+
                 <Button className=" bg-blue-500 text-slate-50  flex gap-2 px-16 items-center mb-3">
                   <img src={Linkedin} className='w-5' alt="" />
                   LinkedIn
                 </Button>
+                </a>
 
               </div>
 

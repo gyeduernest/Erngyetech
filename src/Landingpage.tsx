@@ -7,7 +7,7 @@ import Footer from "./Pages/Footer"
 import Hero from "./Pages/Hero"
 import Nav from "./Pages/Nav"
 import Skills from "./Pages/Skills"
-
+import '../src/App.css'
 
 
 function Landingpage() {

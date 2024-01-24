@@ -4,7 +4,7 @@ import { createUserWithEmailAndPassword, Auth } from 'firebase/auth';
 import { useNavigate } from "react-router-dom";
 import logo from '../assets/Primarylogo.svg';
 import project from '../assets/Projects.svg'
-
+import { Link } from "react-router-dom";
 
 
 
@@ -78,7 +78,7 @@ const Signup: React.FC<SignupProps> = ({ auth }) => {
                   id="Password"
                   name="Password"
                   type="Password"
-                  autoComplete="off"
+                  autoComplete="on"
                   placeholder="insert password given"
                   className="block w-full text-xs rounded-md px-3 border-2 border-slate-400 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   value={password}
@@ -88,6 +88,7 @@ const Signup: React.FC<SignupProps> = ({ auth }) => {
                   } />
               </div>
             </div>
+                  
 
             <div className="flex justify-center  ">
               <Button 
@@ -96,6 +97,10 @@ const Signup: React.FC<SignupProps> = ({ auth }) => {
                <img src={project} alt="" className="" /> Go to Projects
               </Button>
             </div>
+              <div className="py-2">
+                  Already have  an account? <Link to="/login" className="font-extrabold">Login</Link>
+  
+                  </div>
               </form>
 
     </div>

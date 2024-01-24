@@ -1,13 +1,6 @@
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Progress } from "@/components/ui/progress"
-import Github from '../assets/Socials/Github.svg'
-import Whatsapp from '../assets/Socials/whatsapplight.svg'
-import Facebook from '../assets/Socials/Facebook.svg'
-import Instagram from '../assets/Socials/Instagram.svg'
-import Linkedin from '../assets/Socials/Linkedin.svg'
-import Telegram from '../assets/Socials/Telegram.svg'
-import Gmail from '../assets/Socials/Gmail.svg'
 import Figlogo from '../assets/Socials/Figlogo.svg'
 import {
   Carousel,
@@ -24,7 +17,7 @@ import Miniproject from '../assets/UI/Miniproject.png'
 import PortfoliowWebsite from '../assets/UI/PortfolioWebsite.png'
 import Digimarket from '../assets/UI/Digimarket.png'
 import Projectmanagement from '../assets/UI/Projectmanagement.png'
-
+import Socials from "./Socials"
 export default function Figma() {
 
 
@@ -45,7 +38,8 @@ export default function Figma() {
                 <img src={Baitab} alt="" className="border-2 rounded-md border-slate-300" />
                 <div className="py-5 bg-slate-900 px-3 text-slate-50 rounded-b-lg">
                   <h2 className="lg:text-3xl text-xl font-bold">
-Baitab                  </h2>
+                    Baitab        
+                  </h2>
                   <div className="gap-2 flex  py-3 ">
                     <Badge className="bg-yellow-400 text-slate-900">
                         Figma
@@ -75,29 +69,9 @@ Baitab                  </h2>
                       </Button>
                       </a>
                     </div>
-                    <div className="flex lg:gap-5 gap-2 px-5">
-                    <div className="w-5 h-5 rounded-full bg-slate-900 ">
-            <img src={Github} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Instagram} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Facebook} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Whatsapp} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Linkedin} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Telegram} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Gmail} className='w-5' alt="" />
-            </div>
-                    </div>
+                    <div>
+                  <Socials/>
+                  </div>
                 </div>
               </CarouselItem>
               <CarouselItem>
@@ -135,29 +109,9 @@ Baitab                  </h2>
                       </Button>
                       </a>
                     </div>
-                    <div className="flex lg:gap-5 gap-2 px-5">
-                    <div className="w-5 h-5 rounded-full bg-slate-900 ">
-            <img src={Github} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Instagram} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Facebook} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Whatsapp} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Linkedin} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Telegram} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Gmail} className='w-5' alt="" />
-            </div>
-                    </div>
+                    <div>
+                  <Socials/>
+                  </div>
                 </div>
               </CarouselItem>
               <CarouselItem>
@@ -195,29 +149,9 @@ Baitab                  </h2>
                       </Button>
                       </a>
                     </div>
-                    <div className="flex lg:gap-5 gap-2 px-5">
-                    <div className="w-5 h-5 rounded-full bg-slate-900 ">
-            <img src={Github} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Instagram} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Facebook} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Whatsapp} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Linkedin} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Telegram} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Gmail} className='w-5' alt="" />
-            </div>
-                    </div>
+                    <div>
+                  <Socials/>
+                  </div>
                 </div>
               </CarouselItem>
               <CarouselItem>
@@ -255,29 +189,9 @@ Baitab                  </h2>
                       </Button>
                       </a>
                     </div>
-                    <div className="flex lg:gap-5 gap-2 px-5">
-                    <div className="w-5 h-5 rounded-full bg-slate-900 ">
-            <img src={Github} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Instagram} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Facebook} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Whatsapp} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Linkedin} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Telegram} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Gmail} className='w-5' alt="" />
-            </div>
-                    </div>
+                    <div>
+                  <Socials/>
+                  </div>
                 </div>
               </CarouselItem>
               <CarouselItem>
@@ -315,29 +229,9 @@ Baitab                  </h2>
                       </Button>
                       </a>
                     </div>
-                    <div className="flex lg:gap-5 gap-2 px-5">
-                    <div className="w-5 h-5 rounded-full bg-slate-900 ">
-            <img src={Github} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Instagram} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Facebook} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Whatsapp} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Linkedin} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Telegram} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Gmail} className='w-5' alt="" />
-            </div>
-                    </div>
+                    <div>
+                  <Socials/>
+                  </div>
                 </div>
               </CarouselItem>
               <CarouselItem>
@@ -375,29 +269,9 @@ Baitab                  </h2>
                       </Button>
                       </a>
                     </div>
-                    <div className="flex lg:gap-5 gap-2 px-5">
-                    <div className="w-5 h-5 rounded-full bg-slate-900 ">
-            <img src={Github} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Instagram} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Facebook} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Whatsapp} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Linkedin} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Telegram} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Gmail} className='w-5' alt="" />
-            </div>
-                    </div>
+                    <div>
+                  <Socials/>
+                  </div>
                 </div>
               </CarouselItem>
               <CarouselItem>
@@ -435,29 +309,9 @@ Baitab                  </h2>
                       </Button>
                       </a>
                     </div>
-                    <div className="flex lg:gap-5 gap-2 px-5">
-                    <div className="w-5 h-5 rounded-full bg-slate-900 ">
-            <img src={Github} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Instagram} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Facebook} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Whatsapp} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Linkedin} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Telegram} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Gmail} className='w-5' alt="" />
-            </div>
-                    </div>
+                    <div>
+                  <Socials/>
+                  </div>
                 </div>
               </CarouselItem>
               <CarouselItem>
@@ -494,29 +348,9 @@ Baitab                  </h2>
                       </Button>
                       </a>
                     </div>
-                    <div className="flex lg:gap-5 gap-2 px-5">
-                    <div className="w-5 h-5 rounded-full bg-slate-900 ">
-            <img src={Github} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Instagram} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Facebook} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Whatsapp} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Linkedin} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Telegram} className='w-5' alt="" />
-            </div>
-            <div className="w-5 h-5 rounded-full bg-slate-900">
-            <img src={Gmail} className='w-5' alt="" />
-            </div>
-                    </div>
+                    <div>
+                  <Socials/>
+                  </div>
                 </div>
               </CarouselItem>
         </CarouselContent>

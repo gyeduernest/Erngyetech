@@ -17,6 +17,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
+import { Link } from 'react-router-dom'
 
 export default function Fewprojects() {
   return (
@@ -31,11 +32,17 @@ export default function Fewprojects() {
           <div className="text-2xl font-bold mb-5">
             UI/UX
           </div>
-        <Carousel className="lg:w-96 w-64">
+        <Carousel className="lg:w-80 w-64">
             <CarouselContent className="">
                 <CarouselItem className=""><img src={Baitab} alt="" className="rounded-md lg:rounded-3xl" />
                  <div className="py-5  ">
-                    <h3 className="text-2xl font-semibold justify-between flex">Baitab <Button className="" variant={"link"} size={"sm"}>View</Button> </h3>
+                    <h3 className="text-2xl font-semibold justify-between flex">Baitab
+                    <Link to="/signup">
+                     <Button className="" variant={"link"} size={"sm"}>
+                      View
+                      </Button>
+                    </Link>
+                       </h3>
                     <div>
                     <Badge className="bg-yellow-400 text-slate-900 mb-2">Figma</Badge>
                     </div>
@@ -47,7 +54,11 @@ export default function Fewprojects() {
                 <CarouselItem>
                   <img src={Gymbud} alt="" className="rounded-md lg:rounded-3xl" />
                   <div className="py-5  ">
-                    <h3 className="text-2xl font-semibold justify-between flex">Gymbud <Button className="" variant={"link"} size={"sm"}>View</Button> </h3>
+                    <h3 className="text-2xl font-semibold justify-between flex">Gymbud <Link to="/signup">
+                     <Button className="" variant={"link"} size={"sm"}>
+                      View
+                      </Button>
+                    </Link> </h3>
                     <div>
                     <Badge className="bg-yellow-400 text-slate-900 mb-2">Figma</Badge>
                     </div>
@@ -58,7 +69,11 @@ export default function Fewprojects() {
                   </CarouselItem>
                 <CarouselItem><img src={Datacompany} alt="" className="rounded-md lg:rounded-3xl" />
                 <div className="py-5  ">
-                    <h3 className="text-2xl font-semibold justify-between flex">Data company website <Button className="" variant={"link"} size={"sm"}>View</Button> </h3>
+                    <h3 className="text-2xl font-semibold justify-between flex">Data company website <Link to="/signup">
+                     <Button className="" variant={"link"} size={"sm"}>
+                      View
+                      </Button>
+                    </Link> </h3>
                     <div>
                     <Badge className="bg-yellow-400 text-slate-900 mb-2">Figma</Badge>
                     </div>
@@ -69,7 +84,11 @@ export default function Fewprojects() {
                 </CarouselItem>
                 <CarouselItem><img src={Miniproject} alt="" className="lg:rounded-3xl rounded-md" />
                 <div className="py-5  ">
-                    <h3 className="text-2xl font-semibold justify-between flex">Data company website <Button className="" variant={"link"} size={"sm"}>View</Button> </h3>
+                    <h3 className="text-2xl font-semibold justify-between flex">Data company website <Link to="/signup">
+                     <Button className="" variant={"link"} size={"sm"}>
+                      View
+                      </Button>
+                    </Link> </h3>
                     <div>
                     <Badge className="bg-yellow-400 text-slate-900 mb-2">Figma</Badge>
                     </div>
@@ -87,11 +106,15 @@ export default function Fewprojects() {
         <div className="text-2xl font-bold mb-5">
             Web development
           </div>
-        <Carousel className="lg:w-96 w-64 py-5">
+        <Carousel className="lg:w-80 w-64 py-5">
             <CarouselContent className="">
                 <CarouselItem className=""><img src={Shop} alt="" className="rounded-md lg:rounded-3xl" />
                  <div className="py-5  ">
-                    <h3 className="text-xl font-semibold justify-between flex">Shopify Dashboard<Button className="" variant={"link"} size={"sm"}>View</Button> </h3>
+                    <h3 className="text-xl font-semibold justify-between flex">Shopify Dashboard<Link to="/signup">
+                     <Button className="" variant={"link"} size={"sm"}>
+                      View
+                      </Button>
+                    </Link> </h3>
                     <div className="flex gap-2">
                     <Badge className="bg-yellow-400 text-slate-900 mb-2">HTML</Badge>
                     <Badge className="bg-orange-400 text-slate-900 mb-2">Css</Badge>
@@ -134,11 +157,15 @@ export default function Fewprojects() {
         <div className="text-2xl font-bold mb-5">
             Others
           </div>
-        <Carousel className="lg:w-96 w-64">
+        <Carousel className="lg:w-80 w-64">
             <CarouselContent className="">
                 <CarouselItem className=""><img src={Tutorials1} alt="" className="rounded-md lg:rounded-3xl" />
                  <div className="py-5  ">
-                    <h3 className="text-xl font-semibold justify-between flex">Tutorials video <Button className="" variant={"link"} size={"sm"}>View</Button> </h3>
+                    <h3 className="text-xl font-semibold justify-between flex">Tutorials video <Link to="/signup">
+                     <Button className="" variant={"link"} size={"sm"}>
+                      View
+                      </Button>
+                    </Link> </h3>
                     <div className="gap-2 flex">
                     <Badge className="bg-indigo-700 text-slate-50 mb-2">Premiere Pro</Badge>
                     <Badge className="bg-red-600 text-slate-50 mb-2">Youtube</Badge>
@@ -165,7 +192,11 @@ export default function Fewprojects() {
                   </CarouselItem>
                 <CarouselItem><img src={Map1} alt="" className="rounded-md h-56 w-96 lg:rounded-3xl" />
                 <div className="py-5  ">
-                    <h3 className="text-2xl font-semibold justify-between flex">Drawing of maps <Button className="" variant={"link"} size={"sm"}>View</Button> </h3>
+                    <h3 className="text-2xl font-semibold justify-between flex">Drawing of maps<Link to="/signup">
+                     <Button className="" variant={"link"} size={"sm"}>
+                      View
+                      </Button>
+                    </Link> </h3>
                     <div>
                     <Badge className="bg-green-700 text-slate-50 mb-2">Arc Map</Badge>
                     </div>

@@ -2,6 +2,7 @@ import { Button } from '@/components/ui/button'
 import '../App.css'
 import Call from '../assets/Call.svg'
 import Projects from '../assets/Projects.svg'
+import { Link } from 'react-router-dom'
 
 export default function Calltoaction2() {
   return (
@@ -15,14 +16,19 @@ export default function Calltoaction2() {
         If you are content with any of my services you can contact me let us talk or better still create an account with me to view my personal Projects
        </p>
        <div className='py-5 gap-3 flex justify-center'>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSefXhqap-Nis8XMkowANlZYx80n_UUi8HVwHwTp2n9GVwQK7w/viewform?usp=sf_link" target='_blank'>
        <Button className='px-5 gap-3'>
         <img src={Call} alt="" />
         Let us talk
        </Button>
+        </a>
+        <Link to="/signup">
+
        <Button className='px-5 gap-3'>
         <img src={Projects} alt="" />
         View All Projects
        </Button>
+        </Link>
        </div>
 
        </div>

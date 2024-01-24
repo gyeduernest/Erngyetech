@@ -11,7 +11,8 @@ import {
 } from "@/components/ui/navigation-menu"
 import Whatsapplight from '../assets/Socials/whatsapplight.svg'
 import { Mobilenav } from './Mobilenav'
-
+import Hiremecomp from './Hiremecomp'
+import { Link } from 'react-router-dom'
 
 
 
@@ -49,9 +50,7 @@ export default function Nav() {
                                       <h3 className='font-inter font-semibold text-xl'> Hello There !!</h3>
                                       <p className='text-xs py-2 text-slate-600 '> Get to know the skills i got up my sleeve as i make the best of what i have and do you will not be disappointed if you hire me</p>
                                     </div>
-                                    <Button>
-                                      Hire me
-                                    </Button>
+                                    <Hiremecomp/>
                                   </div>
                                   <div>
 
@@ -99,9 +98,8 @@ export default function Nav() {
                                       <h3 className='font-inter font-semibold text-xl'> Hello There !!</h3>
                                       <p className='text-xs py-2 text-slate-600 '> Get to know the skills i got up my sleeve as i make the best of what i have and do you will not be disappointed if you hire me</p>
                                     </div>
-                                    <Button>
-                                      Hire me
-                                    </Button>
+                                    <Hiremecomp/>
+
                                   </div>
                                   <div>
 
@@ -125,9 +123,11 @@ export default function Nav() {
                               </div>
 
                               <div className="flex-end justify-end flex  mt-3">
+                              <Link to="/signup">
                               <Button>
                                 More
                               </Button>
+                              </Link>
                               </div>
                               
                                   </div>
@@ -148,9 +148,7 @@ export default function Nav() {
                                       <h3 className='font-inter font-semibold text-xl'> Hello There !!</h3>
                                       <p className='text-xs py-2 text-slate-600 '> Get to know the skills i got up my sleeve as i make the best of what i have and do you will not be disappointed if you hire me</p>
                                     </div>
-                                    <Button>
-                                      Hire me
-                                    </Button>
+                                    <Hiremecomp/>
                                   </div>
                                   <div>
 
@@ -188,7 +186,10 @@ export default function Nav() {
                   <NavigationMenu>
                           <NavigationMenuList>
                             <NavigationMenuItem className=" font-semibold px-5 rounded-md py-2">
+                              <a href="https://docs.google.com/forms/d/e/1FAIpQLSefXhqap-Nis8XMkowANlZYx80n_UUi8HVwHwTp2n9GVwQK7w/viewform?usp=sf_link" target='_blank'>
+
                               Contact
+                              </a>
                             </NavigationMenuItem>
                           </NavigationMenuList>
                   </NavigationMenu>

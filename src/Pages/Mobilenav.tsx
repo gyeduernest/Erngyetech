@@ -14,13 +14,8 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import MenuButton from '../assets/MenuButton.svg'
-import Github from '../assets/Socials/Github.svg'
-import Whatsapp from '../assets/Socials/whatsapplight.svg'
-import Facebook from '../assets/Socials/Facebook.svg'
-import Instagram from '../assets/Socials/Instagram.svg'
-import Linkedin from '../assets/Socials/Linkedin.svg'
-import Telegram from '../assets/Socials/Telegram.svg'
-import Gmail from '../assets/Socials/Gmail.svg'
+import { Link, NavLink } from "react-router-dom"
+import Socials from "./Socials"
 
 
 export function Mobilenav() {
@@ -30,11 +25,11 @@ export function Mobilenav() {
         <Button variant="outline"><img src={MenuButton} alt="" /></Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-56 absolute left-[-40px] top-[-80px] h-[650px] ">
-        <DropdownMenuLabel>My Account</DropdownMenuLabel>
+        <DropdownMenuLabel>Main Menu</DropdownMenuLabel>
         <DropdownMenuSeparator />
         <DropdownMenuGroup>
           <DropdownMenuItem>
-            Home
+            <Link to="/">Home</Link>
             <DropdownMenuShortcut>⇧⌘P</DropdownMenuShortcut>
           </DropdownMenuItem>
         </DropdownMenuGroup>
@@ -43,10 +38,16 @@ export function Mobilenav() {
             <DropdownMenuSubTrigger>Projects</DropdownMenuSubTrigger>
             <DropdownMenuPortal>
               <DropdownMenuSubContent>
-                <DropdownMenuItem>Email</DropdownMenuItem>
-                <DropdownMenuItem>Message</DropdownMenuItem>
+                <NavLink to="/signup">
+                <DropdownMenuItem>Baitab</DropdownMenuItem>
+                </NavLink>
+                <NavLink to="/signup">
+                <DropdownMenuItem>Gymbud</DropdownMenuItem>
+                </NavLink>
                 <DropdownMenuSeparator />
-                <DropdownMenuItem>More...</DropdownMenuItem>
+                <NavLink to="/signup">
+                <DropdownMenuItem>Maps</DropdownMenuItem>
+                </NavLink>
               </DropdownMenuSubContent>
             </DropdownMenuPortal>
           </DropdownMenuSub>
@@ -54,55 +55,44 @@ export function Mobilenav() {
             <DropdownMenuSubTrigger>Services</DropdownMenuSubTrigger>
             <DropdownMenuPortal>
               <DropdownMenuSubContent>
-                <DropdownMenuItem>Email</DropdownMenuItem>
-                <DropdownMenuItem>Message</DropdownMenuItem>
+              <a href="#skills">
+                <DropdownMenuItem>UI/UX Design</DropdownMenuItem>
+                <DropdownMenuItem>Web development</DropdownMenuItem>
+             </a>
+
                 <DropdownMenuSeparator />
-                <DropdownMenuItem>More...</DropdownMenuItem>
               </DropdownMenuSubContent>
             </DropdownMenuPortal>
           </DropdownMenuSub>
           <DropdownMenuSub>
-            <DropdownMenuSubTrigger>Git Repository</DropdownMenuSubTrigger>
+            <DropdownMenuSubTrigger>             
+              Git Repository   
+</DropdownMenuSubTrigger>
             <DropdownMenuPortal>
               <DropdownMenuSubContent>
-                <DropdownMenuItem>Email</DropdownMenuItem>
-                <DropdownMenuItem>Message</DropdownMenuItem>
+                <DropdownMenuItem>             
+                   <a href="https://github.com/gyeduernest/shopify" target="_blank">Shopify</a>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <a href="https://github.com/gyeduernest/App_project_2" target="_blank">Ghaprofund</a>
+                </DropdownMenuItem>
                 <DropdownMenuSeparator />
-                <DropdownMenuItem>More...</DropdownMenuItem>
+                <DropdownMenuItem><a href="https://github.com/gyeduernest/App_project">Fintrack</a></DropdownMenuItem>
               </DropdownMenuSubContent>
             </DropdownMenuPortal>
           </DropdownMenuSub>
         </DropdownMenuGroup>
         <DropdownMenuSeparator />
-        <DropdownMenuItem>Contact</DropdownMenuItem>
-        <DropdownMenuItem>About</DropdownMenuItem>
-        <DropdownMenuSeparator />
-        <DropdownMenuItem className="mb-80">
-          Log out
-          <DropdownMenuShortcut>⇧⌘Q</DropdownMenuShortcut>
-        </DropdownMenuItem>
-        <DropdownMenuItem className="gap-2">
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Github} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Instagram} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Facebook} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Whatsapp} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Linkedin} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Telegram} className='w-5' alt="" />
-          </div>
-          <div className="w-5 h-5 rounded-full bg-slate-900">
-          <img src={Gmail} className='w-5' alt="" />
-          </div>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSefXhqap-Nis8XMkowANlZYx80n_UUi8HVwHwTp2n9GVwQK7w/viewform?usp=sf_link" target="_blank">
+
+        <DropdownMenuItem><a href="https://docs.google.com/forms/d/e/1FAIpQLSefXhqap-Nis8XMkowANlZYx80n_UUi8HVwHwTp2n9GVwQK7w/viewform?usp=sf_link" target='_blank'>
+
+Contact
+</a></DropdownMenuItem>
+        </a>
+        
+        <DropdownMenuItem className="">
+          <Socials/>
           
         </DropdownMenuItem>
       </DropdownMenuContent>

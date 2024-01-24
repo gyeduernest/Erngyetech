@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import logo from "../assets/Primarylogo.svg";
 import project from '../assets/Projects.svg'
+import { Link } from "react-router-dom";
 
 
 interface LoginProps {
@@ -31,6 +32,7 @@ const Login: React.FC<LoginProps> = ({ auth }) => {
       }
     }
   };
+
     return (<div>
       
       <div className=" flex bg-slate-900 text-slate-50 justify-center py-10 mx-auto w-full">
@@ -73,6 +75,7 @@ const Login: React.FC<LoginProps> = ({ auth }) => {
                       setEmail(e.target.value);
                     }
                   }
+
                   />
                 </div>
               </div>
@@ -88,7 +91,7 @@ const Login: React.FC<LoginProps> = ({ auth }) => {
                     id="Password"
                     name="Password"
                     type="Password"
-                    autoComplete="off"
+                    autoComplete="on"
                     placeholder="insert password given"
                     className="border-2 border-slate-400 block text-xs w-full rounded-md px-3  py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                     value={password}
@@ -105,7 +108,10 @@ const Login: React.FC<LoginProps> = ({ auth }) => {
                    <img src={project} alt="" className="" /> Go to Projects
                 </Button>
               </div>
-              
+              <div className="py-2">
+                 Dont have  an account? <Link to="/signup" className="font-extrabold">Signup</Link>
+  
+                  </div>
   
                 </form>
   

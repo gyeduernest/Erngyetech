@@ -27,7 +27,9 @@ export default function Hero() {
         </div>
         <div className='flex justify-center lg:gap-4 gap-2 lg:py-1 py-5
         '>
+          <a href="https://wa.me/message/2RR7E4MJMWUUO1">
         <Button className='bg-blue-600 lg:py-6 lg:px-10 gap-2'> <img src={Message} alt="" /> Get in touch now</Button>
+          </a>
         <Button className='bg-pink-600 lg:py-6 lg:px-10'><img src={Docs} alt="" /> Download Resume</Button>
         </div>
       </div>
