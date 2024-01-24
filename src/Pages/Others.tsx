@@ -18,7 +18,7 @@ export default function Others() {
   return (
     <div>
 
-      <h3 className="lg:text-7xl text-3xl font-bold flex justify-center py-10">
+      <h3 className="lg:text-7xl text-3xl font-bold flex justify-center py-10 font-inter">
        Other Personal Projects
       </h3>
       <div className="flex justify-center py-10">
@@ -29,7 +29,7 @@ export default function Others() {
                 <img src={Map1} alt="" className="border-2 rounded-md border-slate-300" />
                 <div className="py-5 bg-slate-900 px-3 text-slate-50 rounded-b-lg">
                  <h2 className="lg:text-3xl text-xl font-bold">
-                  Your digital guy  
+                  School Map  
                  </h2>
                   <div className="gap-2 flex  py-3 ">
                     <Badge className="bg-green-700 text-slate-50">

@@ -11,16 +11,17 @@ import Manymore from '../assets/Manymore.png'
 import { Link } from 'react-router-dom'
 
 
+
 export default function Skills() {
   return (
       <section id='skills'>
 
 
-    <div className="bg-slate-50 lg:py-10  font-inter px-5 py-10 ">
+    <div className="bg-slate-50 lg:py-10  font-inter px-5 py-10 " >
       <div className='skills lg:text-6xl  text-3xl lg:px-40  font-extrabold mb-10'>
         My Skills and Services
       </div>
-      <div className='lg:flex lg:mb-20 justify-center gap-20 items-center'>
+      <div className='lg:flex lg:mb-20 justify-center gap-20 items-center' >
         <div>
           
           <div className=''>

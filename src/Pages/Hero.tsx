@@ -27,10 +27,12 @@ export default function Hero() {
         </div>
         <div className='flex justify-center lg:gap-4 gap-2 lg:py-1 py-5
         '>
-          <a href="https://wa.me/message/2RR7E4MJMWUUO1">
+          <a href="https://wa.me/message/2RR7E4MJMWUUO1" target='_blank'>
         <Button className='bg-blue-600 lg:py-6 lg:px-10 gap-2'> <img src={Message} alt="" /> Get in touch now</Button>
           </a>
+          <a href="https://drive.google.com/file/d/1iqGq86eN1B31ZqXTNtFFs3g83ZJdE7PB/view?usp=sharing" target="_blank">
         <Button className='bg-pink-600 lg:py-6 lg:px-10'><img src={Docs} alt="" /> Download Resume</Button>
+        </a>
         </div>
       </div>
     </m.div>

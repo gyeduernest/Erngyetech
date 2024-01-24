@@ -28,7 +28,7 @@ export default function Experience() {
                           I have a BSc Development Planing certificate from the Department of Planning
                         </p>
                         <Button className="gap-2 mt-2 bg-orange-500">
-                          <img src={Docs} alt="" />                Download Certificate
+                          <img src={Docs} alt="" />Download Certificate
                         </Button>
                       </AccordionContent>
                     </AccordionItem>
@@ -56,9 +56,11 @@ export default function Experience() {
                     <li className="mb-2">● Updating worker database details.</li>
                     <li className="mb-2">● Ensure the signing of confirmation letters from clients for service rendered</li>
                   </ul>
+                  <a href="https://drive.google.com/file/d/1iqGq86eN1B31ZqXTNtFFs3g83ZJdE7PB/view?usp=sharing">
                   <Button className="gap-2 mt-2 bg-blue-600">
                           <img src={Docs} alt="" />  Download Resume
                         </Button>
+                  </a>
                 </AccordionContent>
               </AccordionItem>
           </Accordion>
@@ -74,9 +76,11 @@ export default function Experience() {
                     <li className="mb-2">●Entrusted with the collection of funds for drugs and/or
                                services being rendered</li>                    
                 </ul>
+                <a href="https://drive.google.com/file/d/1iqGq86eN1B31ZqXTNtFFs3g83ZJdE7PB/view?usp=sharing">
                   <Button className="gap-2 mt-2 bg-blue-600">
                           <img src={Docs} alt="" />  Download Resume
                         </Button>
+                  </a>
                 </AccordionContent>
               </AccordionItem>
           </Accordion>
@@ -91,9 +95,11 @@ export default function Experience() {
                     <li className="mb-2">● I fulfilled the contract requirements with the help of the Arc Map software</li>
                     <li className="mb-2">●The maps were then embedded into a brochure for the 2020 'Freshers' in KNUST</li>                    
                 </ul>
+                <a href="https://drive.google.com/file/d/1iqGq86eN1B31ZqXTNtFFs3g83ZJdE7PB/view?usp=sharing">
                   <Button className="gap-2 mt-2 bg-blue-600">
                           <img src={Docs} alt="" />  Download Resume
                         </Button>
+                  </a>
                 </AccordionContent>
               </AccordionItem>
           </Accordion>
@@ -109,9 +115,11 @@ export default function Experience() {
                     <li className="mb-2">●Responsible for data cleaning and made sure the data collected was free of ambiguities.</li>
                     <li className="mb-2">● Involved with regard to writing progress reports and researching data</li>                    
                 </ul>
-                                  <Button className="gap-2 mt-2 bg-blue-600">
+                <a href="https://drive.google.com/file/d/1iqGq86eN1B31ZqXTNtFFs3g83ZJdE7PB/view?usp=sharing">
+                  <Button className="gap-2 mt-2 bg-blue-600">
                           <img src={Docs} alt="" />  Download Resume
                         </Button>
+                  </a>
                 </AccordionContent>
               </AccordionItem>
           </Accordion>

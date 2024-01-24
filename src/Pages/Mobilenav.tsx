@@ -59,7 +59,6 @@ export function Mobilenav() {
                 <DropdownMenuItem>UI/UX Design</DropdownMenuItem>
                 <DropdownMenuItem>Web development</DropdownMenuItem>
              </a>
-
                 <DropdownMenuSeparator />
               </DropdownMenuSubContent>
             </DropdownMenuPortal>

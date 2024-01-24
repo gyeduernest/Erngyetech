@@ -27,7 +27,7 @@ export default function Figma() {
     <>
     <div className="">
 
-    <h3 className="lg:text-7xl text-3xl font-bold flex justify-center py-10">
+    <h3 className="lg:text-7xl text-3xl font-bold flex justify-center py-10 font-inter">
         All UI/UX Projects
       </h3>
     <div className="flex justify-center py-10">
