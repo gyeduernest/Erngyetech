@@ -12,6 +12,7 @@ import Fintrack from '../assets/Webdev/Fintrack.png'
 import Portfolio from '../assets/Webdev/Newwebsite.png'
 import webdev2 from '../assets/Webdev/Webdev2.png'
 import webdev1 from '../assets/Webdev/Webdev1.png'
+import Gyebank from '../assets/Webdev/Gyebank.png'
 import Digimarket from '../assets/Webdev/Digimarket.png'
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
@@ -29,6 +30,52 @@ export default function Websiteprojects() {
     <div className="flex justify-center py-10">
       <Carousel orientation="horizontal" className=" w-64 lg:w-[900px] md:w-96 ">
           <CarouselContent>
+            <CarouselItem>
+              <img src={Gyebank} alt="" className="border-2 rounded-md border-slate-300" />
+              <div className="py-5 bg-slate-900 px-3 text-slate-50 rounded-b-lg">
+                <h2 className="lg:text-3xl text-xl font-bold">
+                 A Bankweb application
+                </h2>
+                <div className="gap-2 flex  py-3 ">
+                  <Badge className="bg-blue-700">
+                      React
+                  </Badge>
+                  <Badge className="bg-slate-50 text-slate-900">
+                      Tremor UI
+                  </Badge>
+                  <Badge className="bg-red-500 text-slate-50">
+                      Daisy UI
+                  </Badge>
+                </div>
+                <p className="text-xs lg:text-sm lg:w-1/2">
+                    This webb application is to mimic a web bank application. I created it with Daisy UI and Tremor UI for the dahsboard. viewing it on a phone may be a problem although it is highly reposive for all devices.  
+                </p>
+                <div className="py-2">
+                  <p className="mb-2 mt-3">
+                    Progress 95%
+                  </p>
+                <Progress value={95} className="bg-slate-50 " />
+                </div>
+                  <div className="flex gap-5 py-5">
+                    <a href="https://github.com/gyeduernest/gyebank" target="_blank">
+                    <Button className="gap-2 bg-slate-50 lg:px-8 text-slate-800">
+                      <img src={Github} alt="" className="w-5 bg-slate-900 rounded-full" />
+                      Github
+                    </Button>
+                    </a>
+                    <a href="https://gyebankapp.vercel.app/" target="_blank">
+                    <Button className="gap-2 bg-blue-600 lg:px-8 text-slate-50">
+                      <Badge className="bg-red-600">Live</Badge>
+                      View
+                    </Button>
+                    </a>
+                  </div>
+                  <div>
+                  <Socials/>
+                  </div>
+
+              </div>
+            </CarouselItem>
             <CarouselItem>
               <img src={Portfolio} alt="" className="border-2 rounded-md border-slate-300" />
               <div className="py-5 bg-slate-900 px-3 text-slate-50 rounded-b-lg">
