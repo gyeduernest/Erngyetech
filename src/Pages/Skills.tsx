@@ -46,7 +46,7 @@ export default function Skills() {
           </Button>
             </a>
             <a href="">
-              <Link to="/signup">
+              <Link to="/allprojects">
 
           <Button className='gap-2 flex items-center w-full'>
             <img src={Projects} alt="" />View Projects
@@ -76,7 +76,7 @@ export default function Skills() {
             </div>
           </div>
           <p className='lg:w-96 mb-5'>
-            I am well knowledgeable when it comes to web development. I can build a static website for your business enriched with SEO to boost your business digital exposure. When it comes to blog websites also trust me and my team to deliver 
+            I have a couple of projects when it comes to UI/ UX designs. I have designed application concepts in my portfolio just to show people i can do the Job.
           </p>
           <div className=' lg:p- gap-2 flex'>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSefXhqap-Nis8XMkowANlZYx80n_UUi8HVwHwTp2n9GVwQK7w/viewform?usp=sf_link" target='_blank'>
@@ -85,7 +85,7 @@ export default function Skills() {
           </Button>
             </a>
             <a href="">
-              <Link to="/signup">
+              <Link to="/allprojects">
 
           <Button className='gap-2 flex items-center w-full'>
             <img src={Projects} alt="" />View Projects
@@ -107,7 +107,7 @@ export default function Skills() {
             </div>
           </div>
           <p className='lg:w-96 mb-5'>
-            I am well knowledgeable when it comes to web development. I can build a static website for your business enriched with SEO to boost your business digital exposure. When it comes to blog websites also trust me and my team to deliver 
+           As part of some of my digital marketing skills i create content both text and videos. I have managed to shoot videos and edit for people in music and covered weedings etc.
           </p>
           <div className=' lg:p- gap-2 flex'>
           <Button className='gap-2 flex items-center w-full'>
@@ -117,8 +117,6 @@ export default function Skills() {
             <img src={Projects} alt="" />View Projects
           </Button>
           </div>
-        
-
         </div>
         <div>
             <img src={Content} alt=""  className='w-96'/>
@@ -144,7 +142,7 @@ export default function Skills() {
             </div>
           </div>
           <p className='lg:w-96 mb-5'>
-            I am well knowledgeable when it comes to web development. I can build a static website for your business enriched with SEO to boost your business digital exposure. When it comes to blog websites also trust me and my team to deliver 
+           In my line of study i have done technical reports and research for companies and in my  years in school. Iknow how to collect data and draw implications from it and possibly give recommendations.
           </p>
           <div className=' lg:p- gap-2 flex'>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSefXhqap-Nis8XMkowANlZYx80n_UUi8HVwHwTp2n9GVwQK7w/viewform?usp=sf_link" target='_blank'>
@@ -153,7 +151,7 @@ export default function Skills() {
           </Button>
             </a>
             <a href="">
-              <Link to="/signup">
+              <Link to="/allprojects">
 
           <Button className='gap-2 flex items-center w-full'>
             <img src={Projects} alt="" />View Projects
@@ -176,7 +174,7 @@ export default function Skills() {
             </div>
           </div>
           <p className='lg:w-96 mb-5'>
-            I am well knowledgeable when it comes to web development. I can build a static website for your business enriched with SEO to boost your business digital exposure. When it comes to blog websites also trust me and my team to deliver 
+             JUST NAME the Skill i may be able to do the work.
           </p>
           <div className=' lg:p- gap-2 flex'>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSefXhqap-Nis8XMkowANlZYx80n_UUi8HVwHwTp2n9GVwQK7w/viewform?usp=sf_link" target='_blank'>
@@ -185,7 +183,7 @@ export default function Skills() {
           </Button>
             </a>
             <a href="">
-              <Link to="/signup">
+              <Link to="/allprojects">
 
           <Button className='gap-2 flex items-center w-full'>
             <img src={Projects} alt="" />View Projects
@@ -200,9 +198,6 @@ export default function Skills() {
             <img src={Manymore} alt=""  className='w-96'/>
         </div>
       </div>
-      
-      
-      
     </div>
       </section>
   )

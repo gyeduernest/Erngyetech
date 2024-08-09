@@ -22,7 +22,7 @@ export default function Quote() {
 
               </div>
               <div className='hidden md:hidden sm:hidden lg:block '>
-                <a href="https://wa.me/message/2RR7E4MJMWUUO1" target='_blank'>
+                <a href="https://wa.me/message/0548612354" target='_blank'>
                 <Button className=" bg-green-800 text-slate-50  flex gap-2 px-16 items-center mb-3">
                   <img src={Whatsapp} className='w-5' alt="" />
                   Whatsapp
